@@ -40,4 +40,6 @@ Architecture Diagram:
    docker-compose exec informix bash -c '/docker-entrypoint-initdb.d/select.sh'
 
 
-
+6. To delete all containers
+   
+   docker-compose rm
