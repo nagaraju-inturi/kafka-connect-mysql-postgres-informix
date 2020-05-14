@@ -48,9 +48,8 @@ Reference document: https://www.confluent.io/blog/kafka-connect-deep-dive-jdbc-s
 
 Note: Since this demo is using JDBC connector, deletes aren't captured.
 
-Some of the restrictions related to JDBC kafka connector for continious replication:
 
-JDBC kafka connector restrictions:
+# JDBC kafka connector restrictions:
 *) Each table needed to have either incrementing serial number or timestamp column which captures last modified time.
 
 Note: This restriction isn't applicable to bulk load data migration.
