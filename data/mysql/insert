@@ -1,0 +1,9 @@
+mysql -u connect_user -pasgard -D testdb -v -e "insert into products (prod_name) values('Husky Rope 50')"
+
+mysql -u connect_user -pasgard -D testdb -v -e "insert into products (prod_name) values('Granite Climbing Helmet')"
+
+mysql -u connect_user -pasgard -D testdb -v -e "insert into products (prod_name) values('Granite Belay2')"
+
+mysql -u connect_user -pasgard -D testdb -v -e "UPDATE products SET prod_name = 'Granite Helmet' where prod_id = 2"
+
+mysql -u connect_user -pasgard -D testdb -v -e "select * from products"

@@ -1,0 +1,13 @@
+
+psql -U postgres -w -d postgres -c "insert into demo.customers (customer_id, first_name, last_name, email, gender, comments) values (1, 'Bibby', 'Argabrite', 'bargabrite0@google.com.hk', 'Female', 'Reactive exuding productivity')"
+
+psql -U postgres -w -d postgres -c "insert into demo.customers (customer_id, first_name, last_name, email, gender, comments) values (2, 'Auberon', 'Sulland', 'asulland1@slcustomer_ideshare.net', 'Male', 'Organized context-sensitive Graphical User Interface')"
+
+psql -U postgres -w -d postgres -c "insert into demo.customers (customer_id, first_name, last_name, email, gender, comments) values (3, 'Marv', 'Dalrymple', 'mdalrymple2@macromedia.com', 'Male', 'Versatile dcustomer_idactic pricing structure')"
+
+psql -U postgres -w -d postgres -c "insert into demo.customers (customer_id, first_name, last_name, email, gender, comments) values (4, 'Nolana', 'Yeeles', 'nyeeles3@drupal.org', 'Female', 'Adaptive real-time archive')"
+
+psql -U postgres -w -d postgres -c "insert into demo.customers (customer_id, first_name, last_name, email, gender, comments) values (5, 'Modestia', 'Coltart', 'mcoltart4@scribd.com', 'Female', 'Reverse-engineered non-volatile success')"
+
+psql -U postgres -w -d postgres -c "select * from demo.customers"
+
